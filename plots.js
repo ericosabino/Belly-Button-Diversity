@@ -157,7 +157,8 @@ function buildCharts(sample) {
                 { range: [4, 6], color: "yellow" },
                 { range: [6, 8], color: "lightgreen" },
                 { range: [8, 10], color: "darkgreen" }
-              ]
+              ],
+            
         },
 		title: { text: "<b>Belly Button Washing Frequency</b> <br>Scrub Per Week" },
 		type: "indicator",
@@ -168,9 +169,9 @@ function buildCharts(sample) {
     
     // 5. Create the layout for the gauge chart.
     var gaugeLayout = { 
-        width: 600, 
-        height: 500,
-        margin: { t: 0, b: 0 } 
+        width: 470, 
+        height: 350,
+        margin: { t: 0, b: 0 }, 
     };
         
     // 6. Use Plotly to plot the gauge data and layout.
